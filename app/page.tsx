@@ -4,7 +4,7 @@ import { useState } from "react";
 import ShareBar from "../components/shareBar/shareBar";
 
 const Page = () => {
-  const [barShowed, setBarShowed] = useState(true);
+  const [barShowed, setBarShowed] = useState(false);
   const toggleBarHandler = () => {
     setBarShowed((barShowed) => !barShowed);
   };
